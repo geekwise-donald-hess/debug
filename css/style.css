@@ -1,0 +1,48 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: coral;
+    
+}
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header > span{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+header > span > img{
+    width: 800px/2;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+nav > ul{
+    width: 800px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    
+}
+
+nav > ul > li{
+    display:block;
+    width: calc(100%/6);
+    margin: 0 auto;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
